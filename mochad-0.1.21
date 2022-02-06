@@ -1,0 +1,13 @@
+Hey everyone, I tried to compile mochad-0.1.17 on current Rasberry PI 4. Does not compile due to tons of duplicate declaration errors. So....
+
+I've fixed all the critical errors and also added J. Jones' int fix: sourceforge.net/p/mochad/discussion/1320002/thread/582c852aa0/
+
+I bumped it to mochad-0.1.21 (I've heard rumblings of version 0.1.19 floating around somewhere). I've commented every change I made, and updated the change log. And now includes "mochad.h". Compiles great and works without issues (that I can find). I'm not using dimming, just X10 off/on. Here it is if anyone wants to give it a go.
+
+It's here:
+sourceforge.net/p/mochad/discussion/1320002/thread/9e758b6afc/?limit=25#7c52/2ab7
+
+I wish I had seen this repository before. Nice work everyone. I got this working on Raspi 4, so see if you can use it. I don't seem to be able to upload the .tar here or I would....
+
+Cheers,
+Steve
